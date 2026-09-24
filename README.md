@@ -1,4 +1,4 @@
-# ⚡ Autonomous Retail Support Agent with Amazon Bedrock & Streamlit
+# ⚡ Nova: Autonomous Retail AI Agent with Amazon Bedrock
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://python.org)
 [![AWS Bedrock](https://img.shields.io/badge/AWS-Amazon%20Bedrock-FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/bedrock/)
@@ -6,7 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An end-to-end generative AI assistant built with **Amazon Bedrock (Anthropic Claude Sonnet 4.5)**, **AWS Lambda Action Groups**, **OpenAPI 3.0 specifications**, **Bedrock Knowledge Bases**, and a responsive **1-Page Streamlit Chat UI**.
+**Nova** is an end-to-end autonomous customer support and order management AI agent powered by **Amazon Bedrock (Anthropic Claude Sonnet 4.5)**, **AWS Lambda Action Groups**, **OpenAPI 3.0 schemas**, and a modern **1-Page Streamlit Chat UI**.
 
 The agent autonomously reasons across customer queries, determines when database or business logic actions are needed, executes tool invocations against backend Lambda handlers, and delivers conversational streaming responses with execution traces.
 
@@ -100,8 +100,8 @@ flowchart LR
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/bedrock-retail-agent.git
-cd bedrock-retail-agent
+git clone https://github.com/BoopathiM9/Nova-Bedrock-AI-Agent.git
+cd Nova-Bedrock-AI-Agent
 ```
 
 ### 2. Set Up Virtual Environment & Dependencies

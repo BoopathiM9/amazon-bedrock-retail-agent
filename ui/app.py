@@ -21,7 +21,7 @@ from ui.bedrock_service import invoke_bedrock_agent_live, mock_agent_stream, DEF
 
 # Page Configuration
 st.set_page_config(
-    page_title="Bedrock Agent Assistant (Claude Sonnet 4.5)",
+    page_title="Nova AI Agent (Claude Sonnet 4.5)",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -150,8 +150,8 @@ with st.sidebar:
 # --- MAIN CONTENT AREA ---
 col_header, col_status = st.columns([3, 1])
 with col_header:
-    st.markdown('<div class="main-title">Amazon Bedrock AI Assistant</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Anthropic Claude Sonnet 4.5 • Lambda Action Groups • Knowledge Base</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-title">Nova: Autonomous Retail AI Agent</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">Amazon Bedrock • Anthropic Claude Sonnet 4.5 • Lambda Action Groups • Knowledge Base</div>', unsafe_allow_html=True)
 
 with col_status:
     if is_live_mode:
