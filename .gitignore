@@ -1,0 +1,32 @@
+# Environment variables & secrets (CRITICAL: Do NOT remove)
+.env
+.env.local
+*.env
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+retail_store.db
+
+# Streamlit
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# Logs & OS artifacts
+*.log
+.DS_Store
+Thumbs.db
